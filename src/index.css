@@ -8,3 +8,9 @@
     grid-template-columns: 1fr 4fr;
     column-gap: 1.5rem;
 }
+
+.feedbackCard {
+    display: grid;
+    grid-template-columns: auto 1fr 2.5rem;
+    column-gap: 1.5rem;
+}

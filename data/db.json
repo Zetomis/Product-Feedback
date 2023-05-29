@@ -1,10 +1,11 @@
 {
     "feedback-data": [
         {
-            "title": "",
-            "category": "",
-            "detail": "",
+            "title": "this app suck",
+            "category": "UI",
+            "detail": "bro this app is so suck xdddd",
             "id": "69",
+            "upvote": 5,
             "comments": [
                 {
                     "comment-user": "zetomis",

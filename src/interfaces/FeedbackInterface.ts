@@ -14,5 +14,6 @@ export interface FeedbackInterface {
     category: string;
     detail: string;
     id: string;
+    upvote: number;
     comments: CommentInterface[];
 }

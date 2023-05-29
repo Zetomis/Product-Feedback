@@ -1,13 +1,14 @@
-import Main from "./components/Main";
-import Sidebar from "./components/Sidebar";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Add from "./pages/Add";
 
 const App = () => {
     return (
         <div className="font-nunito-sans bg-slate-200 min-h-screen">
-            <div className="w-full max-w-screen-xl px-8 py-12 mx-auto flex justify-between app">
-                <Sidebar />
-                <Main />
-            </div>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/add" element={<Add />} />
+            </Routes>
         </div>
     );
 };
